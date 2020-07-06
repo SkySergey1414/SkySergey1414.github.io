@@ -1,0 +1,90 @@
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+.pl-6{
+    padding-left: 6rem;
+}
+
+.logo {
+
+    font-size: 26px;
+    text-align: right;
+    letter-spacing: 5px;
+
+}
+
+.fabrick {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.num {
+    font-size: 30px;
+    text-align: right;
+}
+
+.btn-header {
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(90deg, rgb(255, 79, 88) 0%, rgb(253, 112, 72) 100%);
+    font-size: 10px;
+}
+
+li a {
+    font-size: 11px;
+    color: white;
+
+    &:after {
+        content: '|';
+        color: white;
+        padding-left: 56px;
+        letter-spacing: 3px;
+
+    }
+
+}
+
+.background-nav {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+}
+
+.navbar {
+    height: 1.8rem;
+}
+
+.nav-bar {
+    position: relative;
+    z-index: 4;
+}
+
+.carusel-slider {
+    z-index: 2;
+    margin-top: -28px;
+}
+
+.carousel-item {
+    max-height: 90vh;
+}
+
+.text {
+    font-size: 75px;
+    transform: skewX(15deg);
+    color: black;
+}
+
+.carousel-caption {
+    top: 2% !important;
+
+
+}
+
+
+.rectangl {
+    width: 450px;
+    transform: skewX(-15deg);
+    background: rgba(255, 255, 255, 0.7);
+}
